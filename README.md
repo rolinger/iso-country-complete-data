@@ -2,6 +2,8 @@ A painstakingly collected data set for country info validation. I got quite tire
 
 This data set merges several different independent datasets to create a single master country json object that can be used for HTML/Code validation when dealing with country specific information.
 
+I now use this object to auto-build Country `<select>` menus which then preformat and provide validation for all all other input/select fields related to that country (IE: state lists, postal/zip code, phone numbers (country code and local number formats)
+
 This object can be used to cross reference any country specific information for:
             
         // Object Data Includes:
@@ -26,8 +28,10 @@ The above format uses lookup by the 3 character country code (IE: USA) and retur
   
     //Javascript
     var obj = { dataset } ;
+    
     // extract country info with only 2 digit code
     console.log(obj.country[obj.alpha2_to_alpha3["US"]]) ;  
+    
     // extract country info with only country name
     console.log(obj.country[obj.name_to_alpha3["United States"]] ;  
 

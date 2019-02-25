@@ -35,6 +35,8 @@ The above format uses lookup by the 3 character country code (IE: USA) and retur
     // extract country info with only country name
     console.log(obj.country[obj.name_to_alpha3["United States"]] ;  
 
+Please help keep this data accurate or make contributions to it to expand the datasets.  Things that could be added are known zip/postal codes PER country STATE as well as local phone prefix numbers. 
+
 NOTE: Not all countries have postal info avaialble.  Either the information was incomplete or it simply does not exist for that country.  There are maybe a dozen that postal or so that don't have it.  Always test for `obj.country["XXX"].postal`
 
 Sample Break Out of country-data object:

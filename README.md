@@ -2,7 +2,7 @@ A painstakingly collected data set for country info validation. I got quite tire
 
 This data set merges several different independent datasets to create a single master country json object that can be used for HTML/Code validation when dealing with country specific information.
 
-I now use this object to auto-build Country `<select>` menus which then preformat and provide validation for all all other input/select fields related to that country (IE: state lists, postal/zip code, phone numbers (country code and local number formats)
+I now use this object to auto-build Country `<select>` menus which then preformat and provide validation for all other input/select fields related to that country (IE: state lists, postal/zip code, phone numbers (country code and local number formats))
 
 This object can be used to cross reference any country specific information for:
             

@@ -3,18 +3,21 @@ A painstakingly collected data set for country info validation. I got quite tire
 This data set merges several different independent datasets to create a single master country json object that can be used for HTML/Code validation when dealing with country specific information.
 
 This object can be used to cross reference any country specific information for:
-            // Object Data Includes:
-            Alpha2 code
-            Alpha3 code
-            isoNumber code
-            Phone country code (ie: +1 (US))
-            mobile_begin_with prefix codes
-            Phone format lengths (ie: XXXYYYZZZZ (10))
-            Postal code format & length
-            Permitted non-postal characters
-            Included postal validation regex
-            Country States & State Codes (ie: "Alaska" : "AK" )
+            
+        // Object Data Includes:
+        Alpha2 code
+        Alpha3 code
+        isoNumber code
+        Phone country code (ie: +1 (US))
+        mobile_begin_with prefix codes
+        Phone format lengths (ie: XXXYYYZZZZ (10))
+        Postal code format & length
+        Permitted non-postal characters
+        Included postal validation regex
+        Country States & State Codes (ie: "Alaska" : "AK" )
       
+Sample JS calls:
+
       //javascript:
       var obj = { dataset } ;
       console.log(obj.country["USA"]) ;

@@ -1,6 +1,6 @@
 A painstakingly collected data set for country info validation. I got quite tired of independent lists that needed reformatting and that did not have all the necessary info per data set.  This is the most comprehensive object json I am aware of.  I am going to be writing PHP/JS code for loading and quick data extraction but essentially all you need to do is download the JSON file (CountryData_minify.json) and load it in your scripts and your ready to go.
 
-This data set merges several different independent datasets to create a single master country json object that can be used for HTML/Code validation when dealing with country specific information.
+This data set merges 7 different independent datasets to create a single master country json object that can be used for HTML/Code validation when dealing with country specific information.
 
         // Two files:
         CountryData_minify.json (233k)
@@ -20,6 +20,7 @@ This object can be used to cross reference any country specific information for:
         currency
             currency code 
             currency name
+            currency symbol
         Languages
         Phone:
             country code (ie: +1 (US))

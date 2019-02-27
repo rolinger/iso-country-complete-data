@@ -367,7 +367,7 @@
                 "Description": "US : NNNNN[-NNNN]",
                 "RedundantCharacters": " -",
                 "ValidationRegex": "^[0-9]{5}([0-9]{4})?$",
-                "charSet": "varchar",
+                "charSet": "number",
                 "postalLengths": [
                     "5",
                     "11"
@@ -724,7 +724,7 @@
                 "Description": "AX : NNNNN, CC-NNNNN",
                 "RedundantCharacters": " -",
                 "ValidationRegex": "^(AX)?[0-9]{4}$",
-                "charSet": "varchar",
+                "charSet": "number",
                 "postalLengths": [
                     "5",
                     "8"
@@ -1859,7 +1859,7 @@
                 "Description": "BH : NNN, NNNN",
                 "RedundantCharacters": " -",
                 "ValidationRegex": "^[0-9]{3,4}$",
-                "charSet": "varchar",
+                "charSet": "number",
                 "postalLengths": [
                     "3",
                     "4"
@@ -4993,7 +4993,7 @@
                 "Description": "US : NNNNN[-NNNN]",
                 "RedundantCharacters": " -",
                 "ValidationRegex": "^[0-9]{5}([0-9]{4})?$",
-                "charSet": "varchar",
+                "charSet": "number",
                 "postalLengths": [
                     "5",
                     "11"
@@ -5106,7 +5106,7 @@
                 "Description": "GB : NNNNN, NN NNN, NNNNNN, NNN NNN, NNNNNNN, NNNN NNN",
                 "RedundantCharacters": " -",
                 "ValidationRegex": "((([A-Za-z][0-9]{1,2})|(([A-Za-z][A-Ha-hJ-Yj-y][0-9]{1,2})|(([AZa-z][0-9][A-Za-z])|([A-Za-z][A-Ha-hJ-Yj-y][0-9]?[A-Za-z]))))[0-9][A-Za-z]{2})|GIR0AA",
-                "charSet": "varchar",
+                "charSet": "number",
                 "postalLengths": [
                     "5",
                     "6",
@@ -5984,7 +5984,7 @@
                 "Description": "US : NNNNN[-NNNN]",
                 "RedundantCharacters": " -",
                 "ValidationRegex": "^[0-9]{5}([0-9]{4})?$",
-                "charSet": "varchar",
+                "charSet": "number",
                 "postalLengths": [
                     "5",
                     "11"
@@ -7922,7 +7922,7 @@
                 "Description": "LB : NNNNN, NNNN NNNN",
                 "RedundantCharacters": " -",
                 "ValidationRegex": "^[0-9]{4}(?:[0-9]{4})?$",
-                "charSet": "varchar",
+                "charSet": "number",
                 "postalLengths": [
                     "5",
                     "9"
@@ -8484,7 +8484,7 @@
                 "Description": "LV : NNNNN, CC-NNNNN",
                 "RedundantCharacters": " -",
                 "ValidationRegex": "^(LV)?[0-9]{4}$",
-                "charSet": "varchar",
+                "charSet": "number",
                 "postalLengths": [
                     "5",
                     "8"
@@ -9113,7 +9113,7 @@
                 "Description": "US : NNNNN[-NNNN]",
                 "RedundantCharacters": " -",
                 "ValidationRegex": "^[0-9]{5}([0-9]{4})?$",
-                "charSet": "varchar",
+                "charSet": "number",
                 "postalLengths": [
                     "5",
                     "11"
@@ -9681,7 +9681,7 @@
                 "Description": "US : NNNNN[-NNNN]",
                 "RedundantCharacters": " -",
                 "ValidationRegex": "^[0-9]{5}([0-9]{4})?$",
-                "charSet": "varchar",
+                "charSet": "number",
                 "postalLengths": [
                     "5",
                     "11"
@@ -10642,7 +10642,7 @@
                 "Description": "NL : NNNN LL",
                 "RedundantCharacters": " -",
                 "ValidationRegex": "^[1-9][0-9]{3}(?!SA|SD|SS)[A-Z]{2}$",
-                "charSet": "varchar",
+                "charSet": "number",
                 "postalLengths": [
                     "7"
                 ],
@@ -11357,7 +11357,7 @@
                 "Description": "US : NNNNN[-NNNN]",
                 "RedundantCharacters": " -",
                 "ValidationRegex": "^[0-9]{5}([0-9]{4})?$",
-                "charSet": "varchar",
+                "charSet": "number",
                 "postalLengths": [
                     "5",
                     "11"
@@ -11562,7 +11562,7 @@
                 "Description": "US : NNNNN[-NNNN]",
                 "RedundantCharacters": " -",
                 "ValidationRegex": "^[0-9]{5}([0-9]{4})?$",
-                "charSet": "varchar",
+                "charSet": "number",
                 "postalLengths": [
                     "5",
                     "11"
@@ -11686,7 +11686,7 @@
                 "Description": "PT : NNNN[ NNN]",
                 "RedundantCharacters": " -",
                 "ValidationRegex": "^([0-9]{4}|[0-9]{7})$",
-                "charSet": "varchar",
+                "charSet": "number",
                 "postalLengths": [
                     "4",
                     "9"
@@ -12139,7 +12139,7 @@
                 "Description": "RU : NNN[-NNN]",
                 "RedundantCharacters": " -",
                 "ValidationRegex": "^[0-9]{3}([0-9]{3})?$",
-                "charSet": "varchar",
+                "charSet": "number",
                 "postalLengths": [
                     "3",
                     "8"
@@ -12321,7 +12321,7 @@
                 "Description": "US : NNNNN[-NNNN]",
                 "RedundantCharacters": " -",
                 "ValidationRegex": "^[0-9]{5}([0-9]{4})?$",
-                "charSet": "varchar",
+                "charSet": "number",
                 "postalLengths": [
                     "5",
                     "11"
@@ -15159,7 +15159,7 @@
                 "Description": "VE : NNNN, NNNN-A",
                 "RedundantCharacters": " -",
                 "ValidationRegex": "^[0-9]{4}[a-zA-Z]?$",
-                "charSet": "varchar",
+                "charSet": "number",
                 "postalLengths": [
                     "4",
                     "6"
@@ -15288,7 +15288,7 @@
                 "Description": "US : NNNNN[-NNNN]",
                 "RedundantCharacters": " -",
                 "ValidationRegex": "^[0-9]{5}([0-9]{4})?$",
-                "charSet": "varchar",
+                "charSet": "number",
                 "postalLengths": [
                     "5",
                     "11"
@@ -16136,7 +16136,7 @@
                 "Description": "GB : NNNNN, NN NNN, NNNNNN, NNN NNN, NNNNNNN, NNNN NNN",
                 "RedundantCharacters": " -",
                 "ValidationRegex": "((([A-Za-z][0-9]{1,2})|(([A-Za-z][A-Ha-hJ-Yj-y][0-9]{1,2})|(([AZa-z][0-9][A-Za-z])|([A-Za-z][A-Ha-hJ-Yj-y][0-9]?[A-Za-z]))))[0-9][A-Za-z]{2})|GIR0AA",
-                "charSet": "varchar",
+                "charSet": "number",
                 "postalLengths": [
                     "5",
                     "6",
@@ -16293,7 +16293,7 @@
                 "Description": "GB : NNNNN, NN NNN, NNNNNN, NNN NNN, NNNNNNN, NNNN NNN",
                 "RedundantCharacters": " -",
                 "ValidationRegex": "((([A-Za-z][0-9]{1,2})|(([A-Za-z][A-Ha-hJ-Yj-y][0-9]{1,2})|(([AZa-z][0-9][A-Za-z])|([A-Za-z][A-Ha-hJ-Yj-y][0-9]?[A-Za-z]))))[0-9][A-Za-z]{2})|GIR0AA",
-                "charSet": "varchar",
+                "charSet": "number",
                 "postalLengths": [
                     "5",
                     "6",
@@ -16351,7 +16351,7 @@
                 "Description": "GB : NNNNN, NN NNN, NNNNNN, NNN NNN, NNNNNNN, NNNN NNN",
                 "RedundantCharacters": " -",
                 "ValidationRegex": "((([A-Za-z][0-9]{1,2})|(([A-Za-z][A-Ha-hJ-Yj-y][0-9]{1,2})|(([AZa-z][0-9][A-Za-z])|([A-Za-z][A-Ha-hJ-Yj-y][0-9]?[A-Za-z]))))[0-9][A-Za-z]{2})|GIR0AA",
-                "charSet": "varchar",
+                "charSet": "number",
                 "postalLengths": [
                     "5",
                     "6",

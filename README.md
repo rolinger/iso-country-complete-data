@@ -13,26 +13,26 @@ This object can be used to cross reference any country specific information for:
         // Object Data Includes:
         Alpha2 code
         Alpha3 code
-        short name (ie: United States)
-        long name (ie: United States of America)
+        short name    // (ie: United States)
+        long name     // (ie: United States of America)
         isoNumber code
-        ioc code (olympic committee)
+        ioc code      // (olympic committee)
         currency  // see "NOTE 1"
             currency code []
             currency name [] 
             currency symbol [] 
         Languages
         Phone:
-            country code (ie: +1 (US))
+            country code    // (ie: +1 (US))
             mobile_begin_with prefix codes
-            Phone format lengths (ie: XXXYYYZZZZ (10))
+            Phone format lengths    // (ie: XXXYYYZZZZ (10))
         Postal:  // see "NOTE 2" 
             Postal code formats
             Permitted non-postal characters
             Included postal validation regex
             Postal lengths
-            character sets (for keyboard types: number or text (varchar))
-        Country States & State Codes (ie: "Alaska" : "AK" )
+            character sets    // (keyboard/input types: number or text (varchar))
+        Country States & State Codes    // (ie: "Alaska" : "AK" )
       
 Sample JS calls:
 

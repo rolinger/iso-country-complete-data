@@ -17,16 +17,16 @@ This object can be used to cross reference any country specific information for:
         long name (ie: United States of America)
         isoNumber code
         ioc code (olympic committee)
-        currency
-            currency code 
-            currency name
-            currency symbol
+        currency  // see "NOTE 1"
+            currency code []
+            currency name [] 
+            currency symbol [] 
         Languages
         Phone:
             country code (ie: +1 (US))
             mobile_begin_with prefix codes
             Phone format lengths (ie: XXXYYYZZZZ (10))
-        Postal:
+        Postal:  // see "NOTE 2" 
             Postal code formats
             Permitted non-postal characters
             Included postal validation regex
@@ -53,7 +53,9 @@ The above format uses lookup by the 3 character country code (IE: USA) and retur
 
 Please help keep this data accurate or make contributions to it to expand the datasets.  Things that could be added are known zip/postal codes PER country STATE as well as local phone prefix numbers. 
 
-NOTE: Not all countries have postal info avaialble.  Either the information was incomplete or it simply does not exist for that country.  There are maybe a dozen that postal or so that don't have it.  Always test for `obj.country["XXX"].postal`
+NOTE 1: Currencies: Some countries have multiple codes but only one name and symbol (ie: Colombia).  Others have multiple codes/multiple names but only one symbol and yet others have multiple codes, names and symbols (ie: Namibia)
+
+NOTE 2: Not all countries have postal info avaialble.  To create consistent data, I analyzed those countries and came up with a default solution `Description="No Data", charSet="varchar", postalLength=["7"], ValidationRegex="[a-zA-Z0-9]"` for uniformity.  You may find my chosen defaults do not suit you. Test for `obj.country[code].postal.Description == 'No Data'` to create your own defaults...if any.
 
 Sample Break Out of country-data object:
 

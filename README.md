@@ -30,7 +30,7 @@ This object can be used to cross reference any country specific information for:
             Postal code formats
             Permitted non-postal characters
             Included postal validation regex
-            Postal lengths
+            Postal lengths    // see "NOTE 3"
             character sets    // (keyboard/input types: number or text (varchar))
         Country States & State Codes    // (ie: "Alaska" : "AK" )
       
@@ -56,6 +56,8 @@ Please help keep this data accurate or make contributions to it to expand the da
 NOTE 1: Currencies: Some countries have multiple codes but only one name and symbol (ie: Colombia).  Others have multiple codes/multiple names but only one symbol and yet others have multiple codes, names and symbols (ie: Namibia)
 
 NOTE 2: Postal Codes: Not all countries have postal info avaialble.  To create consistent data, I analyzed those countries and came up with a default solution `Description="No Data", charSet="varchar", postalLength=["7"], ValidationRegex="[a-zA-Z0-9]"` for uniformity.  You may find my chosen defaults do not suit you. Test for `obj.country[code].postal.Description == 'No Data'` to create your own defaults...if any.
+
+NOTE 3: Postal Code Lengths:  Length variations account for spaces and dashes.  US ["5", "10"].  "10" = "12345-1234" or "12345 1234"
 
 Sample Break Out of country-data object:
 

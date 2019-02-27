@@ -370,7 +370,7 @@
                 "charSet": "number",
                 "postalLengths": [
                     "5",
-                    "11"
+                    "10"
                 ],
                 "postalFormats": [
                     "NNNNN",
@@ -4996,7 +4996,7 @@
                 "charSet": "number",
                 "postalLengths": [
                     "5",
-                    "11"
+                    "10"
                 ],
                 "postalFormats": [
                     "NNNNN",
@@ -5987,7 +5987,7 @@
                 "charSet": "number",
                 "postalLengths": [
                     "5",
-                    "11"
+                    "10"
                 ],
                 "postalFormats": [
                     "NNNNN",
@@ -9116,7 +9116,7 @@
                 "charSet": "number",
                 "postalLengths": [
                     "5",
-                    "11"
+                    "10"
                 ],
                 "postalFormats": [
                     "NNNNN",
@@ -9684,7 +9684,7 @@
                 "charSet": "number",
                 "postalLengths": [
                     "5",
-                    "11"
+                    "10"
                 ],
                 "postalFormats": [
                     "NNNNN",
@@ -11360,7 +11360,7 @@
                 "charSet": "number",
                 "postalLengths": [
                     "5",
-                    "11"
+                    "10"
                 ],
                 "postalFormats": [
                     "NNNNN",
@@ -11565,7 +11565,7 @@
                 "charSet": "number",
                 "postalLengths": [
                     "5",
-                    "11"
+                    "10"
                 ],
                 "postalFormats": [
                     "NNNNN",
@@ -11689,7 +11689,7 @@
                 "charSet": "number",
                 "postalLengths": [
                     "4",
-                    "9"
+                    "8"
                 ],
                 "postalFormats": [
                     "NNNN",
@@ -12142,7 +12142,7 @@
                 "charSet": "number",
                 "postalLengths": [
                     "3",
-                    "8"
+                    "7"
                 ],
                 "postalFormats": [
                     "NNN",
@@ -12324,7 +12324,7 @@
                 "charSet": "number",
                 "postalLengths": [
                     "5",
-                    "11"
+                    "10"
                 ],
                 "postalFormats": [
                     "NNNNN",
@@ -15291,7 +15291,7 @@
                 "charSet": "number",
                 "postalLengths": [
                     "5",
-                    "11"
+                    "10"
                 ],
                 "postalFormats": [
                     "NNNNN",

@@ -77,54 +77,57 @@ Sample Break Out of country-data object:
              ...
              }
         },
-        "country" : {
-            "BEL": {
-                "currency": {
-                    "currencyCode": [
-                        "EUR"
-                    ],
-                    "currencyName": "Euro",
-                    "currencySymbol": null
-                },
-                "info": {
-                    "shortName": "Belgium",
-                    "longName": "Belgium",
-                    "alpha2": "BE",
-                    "alpha3": "BEL",
-                    "isoNumericCode": "56",
-                    "ioc": "BEL",
-                    "capitalCity": "Bruxelles [Brussel]",
-                    "tld": ".be"
-                },
-                "languages": [
-                    "nld",
-                    "fra",
-                    "deu"
+        "BEL": {
+            "currency": {
+                "currencyCode": [
+                    "EUR"
                 ],
-                "phone": {
-                    "countryCode": "32",
-                    "mobile_begin_with": [
-                        "4"
-                    ],
-                    "phone_number_lengths": [
-                        9
-                    ]
-                },
-                "postal": {
-                    "Description": "4-Digits - NNNN",
-                    "RedundantCharacters": " -",
-                    "ValidationRegex": "^[0-9]{4}$",
-                    "charSet": "number",
-                    "postalLengths": [
-                        "4"
-                    ],
-                    "postalFormats": [
-                        "NNNN"
-                    ]
-                },
-                "states": {
-                    "Bruxelles-Capitale": "BRU",
-                    "Rgion Flamande": "VLG",
-                    "Rgion Walloni": "WAL"
-                }
+                "currencyName": [
+                    "Euro Member Countries"
+                ],
+                "currencySymbol": [
+                    "&#8364;"
+                ]
+            },
+            "info": {
+                "shortName": "Belgium",
+                "longName": "Belgium",
+                "alpha2": "BE",
+                "alpha3": "BEL",
+                "isoNumericCode": "56",
+                "ioc": "BEL",
+                "capitalCity": "Bruxelles [Brussel]",
+                "tld": ".be"
+            },
+            "languages": [
+                "deu",
+                "fra",
+                "nld"
+            ],
+            "phone": {
+                "countryCode": "32",
+                "mobile_begin_with": [
+                    "4"
+                ],
+                "phone_number_lengths": [
+                    "9"
+                ]
+            },
+            "postal": {
+                "Description": "4-Digits - NNNN",
+                "RedundantCharacters": " -",
+                "ValidationRegex": "^[0-9]{4}$",
+                "charSet": "number",
+                "postalLengths": [
+                    "4"
+                ],
+                "postalFormats": [
+                    "NNNN"
+                ]
+            },
+            "states": {
+                "Bruxelles-Capitale": "BRU",
+                "Rgion Flamande": "VLG",
+                "Rgion Walloni": "WAL"
             }
+        },

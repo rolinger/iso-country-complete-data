@@ -46,10 +46,12 @@ The above format uses lookup by the 3 character country code (IE: USA) and retur
     var obj = { dataset } ;
     
     // extract country info with only 2 digit code
-    console.log(obj.country[obj.alpha2_to_alpha3["BE"]]) ;  
+    var = alpha3 = obj.country[obj.alpha2_to_alpha3["BE"]] ;  
+    console.log(obj.country[alpha3] ;
     
     // extract country info with only country name
-    console.log(obj.country[obj.name_to_alpha3["Belgium"]] ;  
+    var = alpha3 = obj.country[obj.name_to_alpha3["Belgium"]] ;  
+    console.log(obj.country[alpha3] ;
 
 Please help keep this data accurate or make contributions to it to expand the datasets.  Things that could be added are known zip/postal codes PER country STATE as well as local phone prefix numbers. 
 

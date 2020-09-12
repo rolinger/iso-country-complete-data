@@ -6254,9 +6254,11 @@
                     "USD"
                 ],
                 "currencyName": [
+                    "Gourde",
                     "United States Dollar"
                 ],
                 "currencySymbol": [
+                    "&#071",
                     "&#36;"
                 ]
             },
@@ -6498,7 +6500,7 @@
                     "India Rupee"
                 ],
                 "currencySymbol": [
-                    null
+                    "&#8377"
                 ]
             },
             "info": {

@@ -2015,10 +2015,10 @@
         "BLR": {
             "currency": {
                 "currencyCode": [
-                    "BYR"
+                    "BYN"
                 ],
                 "currencyName": [
-                    "Belarus Ruble"
+                    "Belarussian Ruble"
                 ],
                 "currencySymbol": [
                     "&#112;&#46;"
@@ -2026,7 +2026,7 @@
             },
             "info": {
                 "shortName": "Belarus",
-                "longName": "Belarus",
+                "longName": "Republic of Belarus",
                 "alpha2": "BY",
                 "alpha3": "BLR",
                 "isoNumericCode": "112",
@@ -2062,7 +2062,15 @@
                     "NNNNNN"
                 ]
             },
-            "states": {}
+            "states": {
+                "City of Minsk": "",
+                "Brest Region": "",
+                "Gomel Region": "",
+                "Grodno Region": "",
+                "Mogilev Region": "",
+                "Minsk Region": "",
+                "Vitebsk Region": ""
+            }
         },
         "BLZ": {
             "currency": {

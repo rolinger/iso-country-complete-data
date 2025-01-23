@@ -366,7 +366,7 @@
             "postal": {
                 "Description": "US : NNNNN[-NNNN]",
                 "RedundantCharacters": " -",
-                "ValidationRegex": "^[0-9]{5}([0-9]{4})?$",
+                "ValidationRegex": "^[0-9]{5}([ \-]{1}[0-9]{4})?$",
                 "charSet": "number",
                 "postalLengths": [
                     "5",
@@ -480,12 +480,12 @@
                 ]
             },
             "postal": {
-                "Description": "No Data",
+                "Description": "NoPostalSystem",
                 "RedundantCharacters": null,
                 "ValidationRegex": null,
                 "charSet": "varchar",
                 "postalLengths": [
-                    "7"
+                    "0"
                 ],
                 "postalFormats": []
             },
@@ -607,12 +607,12 @@
                 ]
             },
             "postal": {
-                "Description": "No Data",
+                "Description": "NoPostalSystem",
                 "RedundantCharacters": null,
                 "ValidationRegex": null,
                 "charSet": "varchar",
                 "postalLengths": [
-                    "7"
+                    "0"
                 ],
                 "postalFormats": []
             },
@@ -903,12 +903,12 @@
                 ]
             },
             "postal": {
-                "Description": "No Data",
+                "Description": "NoPostalSystem",
                 "RedundantCharacters": null,
                 "ValidationRegex": null,
                 "charSet": "varchar",
                 "postalLengths": [
-                    "7"
+                    "0"
                 ],
                 "postalFormats": []
             },
@@ -1148,12 +1148,12 @@
                 ]
             },
             "postal": {
-                "Description": "No Data",
+                "Description": "NoPostalSystem",
                 "RedundantCharacters": null,
                 "ValidationRegex": null,
                 "charSet": "varchar",
                 "postalLengths": [
-                    "7"
+                    "0"
                 ],
                 "postalFormats": []
             },
@@ -1461,12 +1461,12 @@
                 ]
             },
             "postal": {
-                "Description": "No Data",
+                "Description": "NoPostalSystem",
                 "RedundantCharacters": null,
                 "ValidationRegex": null,
                 "charSet": "varchar",
                 "postalLengths": [
-                    "7"
+                    "0"
                 ],
                 "postalFormats": []
             },
@@ -1575,12 +1575,12 @@
                 ]
             },
             "postal": {
-                "Description": "No Data",
+                "Description": "NoPostalSystem",
                 "RedundantCharacters": null,
                 "ValidationRegex": null,
                 "charSet": "varchar",
                 "postalLengths": [
-                    "7"
+                    "0"
                 ],
                 "postalFormats": []
             },
@@ -1631,12 +1631,12 @@
                 ]
             },
             "postal": {
-                "Description": "No Data",
-                "RedundantCharacters": null,
-                "ValidationRegex": null,
+                "Description": "5-Digits - NNNNN",
+                "RedundantCharacters": "",
+                "ValidationRegex": "^(99999)$",
                 "charSet": "varchar",
                 "postalLengths": [
-                    "7"
+                    "5"
                 ],
                 "postalFormats": []
             },
@@ -1912,12 +1912,12 @@
                 ]
             },
             "postal": {
-                "Description": "No Data",
+                "Description": "NoPostalSystem",
                 "RedundantCharacters": null,
                 "ValidationRegex": null,
                 "charSet": "varchar",
                 "postalLengths": [
-                    "7"
+                    "0"
                 ],
                 "postalFormats": []
             },
@@ -2099,12 +2099,12 @@
                 ]
             },
             "postal": {
-                "Description": "No Data",
+                "Description": "NoPostalSystem",
                 "RedundantCharacters": null,
                 "ValidationRegex": null,
                 "charSet": "varchar",
                 "postalLengths": [
-                    "7"
+                    "0"
                 ],
                 "postalFormats": []
             },
@@ -2154,12 +2154,12 @@
                 ]
             },
             "postal": {
-                "Description": "No Data",
-                "RedundantCharacters": null,
-                "ValidationRegex": null,
+                "Description": "2-char 2-digit, AA NN",
+                "RedundantCharacters": " -",
+                "ValidationRegex": "^[a-zA-Z]{2}[ \-]([a-zA-Z]{2} | [0-9]{2})$",
                 "charSet": "varchar",
                 "postalLengths": [
-                    "7"
+                    "5"
                 ],
                 "postalFormats": []
             },
@@ -2591,12 +2591,12 @@
                 ]
             },
             "postal": {
-                "Description": "No Data",
+                "Description": "NoPostalSystem",
                 "RedundantCharacters": null,
                 "ValidationRegex": null,
                 "charSet": "varchar",
                 "postalLengths": [
-                    "7"
+                    "0"
                 ],
                 "postalFormats": []
             },
@@ -2644,12 +2644,12 @@
                 ]
             },
             "postal": {
-                "Description": "No Data",
+                "Description": "NoPostalSystem",
                 "RedundantCharacters": null,
                 "ValidationRegex": null,
                 "charSet": "varchar",
                 "postalLengths": [
-                    "7"
+                    "0"
                 ],
                 "postalFormats": []
             },
@@ -3040,12 +3040,12 @@
                 ]
             },
             "postal": {
-                "Description": "No Data",
+                "Description": NoPostalSystem",
                 "RedundantCharacters": null,
                 "ValidationRegex": null,
                 "charSet": "varchar",
                 "postalLengths": [
-                    "7"
+                    "0"
                 ],
                 "postalFormats": []
             },
@@ -3104,12 +3104,12 @@
                 ]
             },
             "postal": {
-                "Description": "No Data",
-                "RedundantCharacters": null,
-                "ValidationRegex": null,
+                "Description": "5-digit, NNNNN",
+                "RedundantCharacters": "",
+                "ValidationRegex": "^[0-9]{5}$",
                 "charSet": "varchar",
                 "postalLengths": [
-                    "7"
+                    "5"
                 ],
                 "postalFormats": []
             },
@@ -3161,9 +3161,9 @@
                 ]
             },
             "postal": {
-                "Description": "No Data",
-                "RedundantCharacters": null,
-                "ValidationRegex": null,
+                "Description": "7-digits, NNNNNNN",
+                "RedundantCharacters": "",
+                "ValidationRegex": "^[0-9]{7}$",
                 "charSet": "varchar",
                 "postalLengths": [
                     "7"
@@ -3216,12 +3216,12 @@
                 ]
             },
             "postal": {
-                "Description": "No Data",
+                "Description": "NoPostalSystem",
                 "RedundantCharacters": null,
                 "ValidationRegex": null,
                 "charSet": "varchar",
                 "postalLengths": [
-                    "7"
+                    "0"
                 ],
                 "postalFormats": []
             },
@@ -3277,12 +3277,12 @@
                 ]
             },
             "postal": {
-                "Description": "No Data",
+                "Description": "NoPostalSystem",
                 "RedundantCharacters": null,
                 "ValidationRegex": null,
                 "charSet": "varchar",
                 "postalLengths": [
-                    "7"
+                    "0"
                 ],
                 "postalFormats": []
             },
@@ -3417,12 +3417,12 @@
                 ]
             },
             "postal": {
-                "Description": "No Data",
+                "Description": "NoPostalSystem",
                 "RedundantCharacters": null,
                 "ValidationRegex": null,
                 "charSet": "varchar",
                 "postalLengths": [
-                    "7"
+                    "0"
                 ],
                 "postalFormats": []
             },
@@ -3899,12 +3899,12 @@
                 ]
             },
             "postal": {
-                "Description": "No Data",
+                "Description": "NoPostalSystem",
                 "RedundantCharacters": null,
                 "ValidationRegex": null,
                 "charSet": "varchar",
                 "postalLengths": [
-                    "7"
+                    "0"
                 ],
                 "postalFormats": []
             },
@@ -3951,12 +3951,12 @@
                 ]
             },
             "postal": {
-                "Description": "No Data",
-                "RedundantCharacters": null,
-                "ValidationRegex": null,
+                "Description": "5-digit, NNNNN",
+                "RedundantCharacters": "",
+                "ValidationRegex": "^(00152)$",
                 "charSet": "varchar",
                 "postalLengths": [
-                    "7"
+                    "5"
                 ],
                 "postalFormats": []
             },
@@ -4395,12 +4395,12 @@
                 ]
             },
             "postal": {
-                "Description": "No Data",
+                "Description": "NoPostalSystem",
                 "RedundantCharacters": null,
                 "ValidationRegex": null,
                 "charSet": "varchar",
                 "postalLengths": [
-                    "7"
+                    "0"
                 ],
                 "postalFormats": []
             },
@@ -4737,12 +4737,12 @@
                 ]
             },
             "postal": {
-                "Description": "No Data",
+                "Description": "NoPostalSystem",
                 "RedundantCharacters": null,
                 "ValidationRegex": null,
                 "charSet": "varchar",
                 "postalLengths": [
-                    "7"
+                    "0"
                 ],
                 "postalFormats": []
             },
@@ -4992,7 +4992,7 @@
             "postal": {
                 "Description": "US : NNNNN[-NNNN]",
                 "RedundantCharacters": " -",
-                "ValidationRegex": "^[0-9]{5}([0-9]{4})?$",
+                "ValidationRegex": "^[0-9]{5}([ \-]{1}[0-9]{4})?$",
                 "charSet": "number",
                 "postalLengths": [
                     "5",
@@ -5043,12 +5043,12 @@
                 ]
             },
             "postal": {
-                "Description": "No Data",
+                "Description": "NoPostalSystem",
                 "RedundantCharacters": null,
                 "ValidationRegex": null,
                 "charSet": "varchar",
                 "postalLengths": [
-                    "7"
+                    "0"
                 ],
                 "postalFormats": []
             },
@@ -5317,12 +5317,12 @@
                 ]
             },
             "postal": {
-                "Description": "No Data",
-                "RedundantCharacters": null,
-                "ValidationRegex": null,
+                "Description": "5-7 digits, AANNN,AANNNN,ANNNNNN",
+                "RedundantCharacters": "",
+                "ValidationRegex": "^[A-Z]{1}[A-Z0-9){1}([0-9]{3]}|[0-9]{4}|[0-9]{5})$",
                 "charSet": "varchar",
                 "postalLengths": [
-                    "7"
+                    "5,6,7"
                 ],
                 "postalFormats": []
             },
@@ -5524,12 +5524,12 @@
                 ]
             },
             "postal": {
-                "Description": "No Data",
+                "Description": "NoPostalSystem",
                 "RedundantCharacters": null,
                 "ValidationRegex": null,
                 "charSet": "varchar",
                 "postalLengths": [
-                    "7"
+                    "0"
                 ],
                 "postalFormats": []
             },
@@ -5632,12 +5632,12 @@
                 ]
             },
             "postal": {
-                "Description": "No Data",
+                "Description": "NoPostalSystem",
                 "RedundantCharacters": null,
                 "ValidationRegex": null,
                 "charSet": "varchar",
                 "postalLengths": [
-                    "7"
+                    "0"
                 ],
                 "postalFormats": []
             },
@@ -5749,12 +5749,12 @@
                 ]
             },
             "postal": {
-                "Description": "No Data",
+                "Description": "NoPostalSystem",
                 "RedundantCharacters": null,
                 "ValidationRegex": null,
                 "charSet": "varchar",
                 "postalLengths": [
-                    "7"
+                    "0"
                 ],
                 "postalFormats": []
             },
@@ -5983,7 +5983,7 @@
             "postal": {
                 "Description": "US : NNNNN[-NNNN]",
                 "RedundantCharacters": " -",
-                "ValidationRegex": "^[0-9]{5}([0-9]{4})?$",
+                "ValidationRegex": "^[0-9]{5}([ \-]{1}[0-9]{4})?$",
                 "charSet": "number",
                 "postalLengths": [
                     "5",
@@ -6033,12 +6033,12 @@
                 ]
             },
             "postal": {
-                "Description": "No Data",
+                "Description": "NoPostalSystem",
                 "RedundantCharacters": null,
                 "ValidationRegex": null,
                 "charSet": "varchar",
                 "postalLengths": [
-                    "7"
+                    "0"
                 ],
                 "postalFormats": []
             },
@@ -6093,12 +6093,12 @@
                 ]
             },
             "postal": {
-                "Description": "No Data",
+                "Description": "NoPostalSystem",
                 "RedundantCharacters": null,
                 "ValidationRegex": null,
                 "charSet": "varchar",
                 "postalLengths": [
-                    "7"
+                    "0"
                 ],
                 "postalFormats": []
             },
@@ -6623,9 +6623,9 @@
                 ]
             },
             "postal": {
-                "Description": "No Data",
-                "RedundantCharacters": null,
-                "ValidationRegex": null,
+                "Description": "7-alaphanumberic, ANN AANN",
+                "RedundantCharacters": " ",
+                "ValidationRegex": "^[a-zA-Z]{1}[0-9]{2} [a-zA-Z0-9]{2}[0-9]{2}$",
                 "charSet": "varchar",
                 "postalLengths": [
                     "7"
@@ -7546,12 +7546,12 @@
                 ]
             },
             "postal": {
-                "Description": "No Data",
+                "Description": "NoPostalSystem",
                 "RedundantCharacters": null,
                 "ValidationRegex": null,
                 "charSet": "varchar",
                 "postalLengths": [
-                    "7"
+                    "0"
                 ],
                 "postalFormats": []
             },
@@ -7620,12 +7620,12 @@
                 ]
             },
             "postal": {
-                "Description": "No Data",
+                "Description": "NoPostalSystem",
                 "RedundantCharacters": null,
                 "ValidationRegex": null,
                 "charSet": "varchar",
                 "postalLengths": [
-                    "7"
+                    "0"
                 ],
                 "postalFormats": []
             },
@@ -7672,12 +7672,12 @@
                 ]
             },
             "postal": {
-                "Description": "No Data",
+                "Description": "NoPostalSystem",
                 "RedundantCharacters": null,
                 "ValidationRegex": null,
                 "charSet": "varchar",
                 "postalLengths": [
-                    "7"
+                    "0"
                 ],
                 "postalFormats": []
             },
@@ -7923,7 +7923,7 @@
             "postal": {
                 "Description": "LB : NNNNN, NNNN NNNN",
                 "RedundantCharacters": " -",
-                "ValidationRegex": "^[0-9]{4}(?:[0-9]{4})?$",
+                "ValidationRegex": "^[0-9]{4}(?:[ \-]{1}[0-9]{4})?$",
                 "charSet": "number",
                 "postalLengths": [
                     "5",
@@ -8650,12 +8650,12 @@
                 ]
             },
             "postal": {
-                "Description": "No Data",
-                "RedundantCharacters": null,
-                "ValidationRegex": null,
+                "Description": "6-digit, NNNNNN",
+                "RedundantCharacters": "",
+                "ValidationRegex": "^(999078)$",
                 "charSet": "varchar",
                 "postalLengths": [
-                    "7"
+                    "6"
                 ],
                 "postalFormats": []
             },
@@ -9114,7 +9114,7 @@
             "postal": {
                 "Description": "US : NNNNN[-NNNN]",
                 "RedundantCharacters": " -",
-                "ValidationRegex": "^[0-9]{5}([0-9]{4})?$",
+                "ValidationRegex": "^[0-9]{5}([ \-]{1}[0-9]{4})?$",
                 "charSet": "number",
                 "postalLengths": [
                     "5",
@@ -9302,12 +9302,12 @@
                 ]
             },
             "postal": {
-                "Description": "No Data",
-                "RedundantCharacters": null,
-                "ValidationRegex": null,
+                "Description": "4-digit, NNNN",
+                "RedundantCharacters": "",
+                "ValidationRegex": "^[0-9]{4}$",
                 "charSet": "varchar",
                 "postalLengths": [
-                    "7"
+                    "4"
                 ],
                 "postalFormats": []
             },
@@ -9682,7 +9682,7 @@
             "postal": {
                 "Description": "US : NNNNN[-NNNN]",
                 "RedundantCharacters": " -",
-                "ValidationRegex": "^[0-9]{5}([0-9]{4})?$",
+                "ValidationRegex": "^[0-9]{5}([ \-]{1}[0-9]{4})?$",
                 "charSet": "number",
                 "postalLengths": [
                     "5",
@@ -9790,12 +9790,12 @@
                 ]
             },
             "postal": {
-                "Description": "No Data",
+                "Description": "NoPostalSystem",
                 "RedundantCharacters": null,
                 "ValidationRegex": null,
                 "charSet": "varchar",
                 "postalLengths": [
-                    "7"
+                    "0"
                 ],
                 "postalFormats": []
             },
@@ -10015,12 +10015,12 @@
                 ]
             },
             "postal": {
-                "Description": "No Data",
-                "RedundantCharacters": null,
-                "ValidationRegex": null,
+                "Description": "6-digit, NNNNNN",
+                "RedundantCharacters": "",
+                "ValidationRegex": "^[0-9]{6}$",
                 "charSet": "varchar",
                 "postalLengths": [
-                    "7"
+                    "6"
                 ],
                 "postalFormats": []
             },
@@ -10593,12 +10593,12 @@
                 ]
             },
             "postal": {
-                "Description": "No Data",
-                "RedundantCharacters": null,
-                "ValidationRegex": null,
+                "Description": "4-digit, NNNN",
+                "RedundantCharacters": "",
+                "ValidationRegex": "^[0-9]{4}$",
                 "charSet": "varchar",
                 "postalLengths": [
-                    "7"
+                    "4"
                 ],
                 "postalFormats": []
             },
@@ -10838,12 +10838,12 @@
                 ]
             },
             "postal": {
-                "Description": "No Data",
+                "Description": "NoPostalSystem",
                 "RedundantCharacters": null,
                 "ValidationRegex": null,
                 "charSet": "varchar",
                 "postalLengths": [
-                    "7"
+                    "0"
                 ],
                 "postalFormats": []
             },
@@ -11358,7 +11358,7 @@
             "postal": {
                 "Description": "US : NNNNN[-NNNN]",
                 "RedundantCharacters": " -",
-                "ValidationRegex": "^[0-9]{5}([0-9]{4})?$",
+                "ValidationRegex": "^[0-9]{5}([ \-]{1}[0-9]{4})?$",
                 "charSet": "number",
                 "postalLengths": [
                     "5",
@@ -11563,7 +11563,7 @@
             "postal": {
                 "Description": "US : NNNNN[-NNNN]",
                 "RedundantCharacters": " -",
-                "ValidationRegex": "^[0-9]{5}([0-9]{4})?$",
+                "ValidationRegex": "^[0-9]{5}([ \-]{1}[0-9]{4})?$",
                 "charSet": "number",
                 "postalLengths": [
                     "5",
@@ -11942,12 +11942,12 @@
                 ]
             },
             "postal": {
-                "Description": "No Data",
+                "Description": "NoPostalSystem",
                 "RedundantCharacters": null,
                 "ValidationRegex": null,
                 "charSet": "varchar",
                 "postalLengths": [
-                    "7"
+                    "0"
                 ],
                 "postalFormats": []
             },
@@ -12140,7 +12140,7 @@
             "postal": {
                 "Description": "RU : NNN[-NNN]",
                 "RedundantCharacters": " -",
-                "ValidationRegex": "^[0-9]{3}([0-9]{3})?$",
+                "ValidationRegex": "^[0-9]{3}([ \-]{1}[0-9]{3})?$",
                 "charSet": "number",
                 "postalLengths": [
                     "3",
@@ -12268,12 +12268,12 @@
                 ]
             },
             "postal": {
-                "Description": "No Data",
+                "Description": "NoPostalSystem",
                 "RedundantCharacters": null,
                 "ValidationRegex": null,
                 "charSet": "varchar",
                 "postalLengths": [
-                    "7"
+                    "0"
                 ],
                 "postalFormats": []
             },
@@ -12322,7 +12322,7 @@
             "postal": {
                 "Description": "US : NNNNN[-NNNN]",
                 "RedundantCharacters": " -",
-                "ValidationRegex": "^[0-9]{5}([0-9]{4})?$",
+                "ValidationRegex": "^[0-9]{5}([ \-]{1}[0-9]{4})?$",
                 "charSet": "number",
                 "postalLengths": [
                     "5",
@@ -12660,12 +12660,12 @@
                 ]
             },
             "postal": {
-                "Description": "No Data",
+                "Description": "NoPostalSystem",
                 "RedundantCharacters": null,
                 "ValidationRegex": null,
                 "charSet": "varchar",
                 "postalLengths": [
-                    "7"
+                    "0"
                 ],
                 "postalFormats": []
             },
@@ -12726,12 +12726,12 @@
                 ]
             },
             "postal": {
-                "Description": "No Data",
+                "Description": "NoPostalSystem",
                 "RedundantCharacters": null,
                 "ValidationRegex": null,
                 "charSet": "varchar",
                 "postalLengths": [
-                    "7"
+                    "0"
                 ],
                 "postalFormats": []
             },
@@ -13129,12 +13129,12 @@
                 ]
             },
             "postal": {
-                "Description": "No Data",
+                "Description": "NoPostalSystem",
                 "RedundantCharacters": null,
                 "ValidationRegex": null,
                 "charSet": "varchar",
                 "postalLengths": [
-                    "7"
+                    "0"
                 ],
                 "postalFormats": []
             },
@@ -13180,12 +13180,12 @@
                 ]
             },
             "postal": {
-                "Description": "No Data",
+                "Description": "NoPostalSystem",
                 "RedundantCharacters": null,
                 "ValidationRegex": null,
                 "charSet": "varchar",
                 "postalLengths": [
-                    "7"
+                    "0"
                 ],
                 "postalFormats": []
             },
@@ -13614,12 +13614,12 @@
                 ]
             },
             "postal": {
-                "Description": "No Data",
+                "Description": "NoPostalSystem",
                 "RedundantCharacters": null,
                 "ValidationRegex": null,
                 "charSet": "varchar",
                 "postalLengths": [
-                    "7"
+                    "0"
                 ],
                 "postalFormats": []
             },
@@ -13686,12 +13686,12 @@
                 ]
             },
             "postal": {
-                "Description": "No Data",
+                "Description": "NoPostalSystem",
                 "RedundantCharacters": null,
                 "ValidationRegex": null,
                 "charSet": "varchar",
                 "postalLengths": [
-                    "7"
+                    "0"
                 ],
                 "postalFormats": []
             },
@@ -13865,12 +13865,12 @@
                 ]
             },
             "postal": {
-                "Description": "No Data",
+                "Description": "NoPostalSystem",
                 "RedundantCharacters": null,
                 "ValidationRegex": null,
                 "charSet": "varchar",
                 "postalLengths": [
-                    "7"
+                    "0"
                 ],
                 "postalFormats": []
             },
@@ -14093,12 +14093,12 @@
                 ]
             },
             "postal": {
-                "Description": "No Data",
-                "RedundantCharacters": null,
-                "ValidationRegex": null,
+                "Description": "4-digit, NNNN",
+                "RedundantCharacters": "",
+                "ValidationRegex": "^[0-9]{4}$",
                 "charSet": "varchar",
                 "postalLengths": [
-                    "7"
+                    "4"
                 ],
                 "postalFormats": []
             },
@@ -14193,12 +14193,12 @@
                 ]
             },
             "postal": {
-                "Description": "No Data",
+                "Description": "NoPostalSystem",
                 "RedundantCharacters": null,
                 "ValidationRegex": null,
                 "charSet": "varchar",
                 "postalLengths": [
-                    "7"
+                    "0"
                 ],
                 "postalFormats": []
             },
@@ -14247,12 +14247,12 @@
                 ]
             },
             "postal": {
-                "Description": "No Data",
+                "Description": "NoPostalSystem",
                 "RedundantCharacters": null,
                 "ValidationRegex": null,
                 "charSet": "varchar",
                 "postalLengths": [
-                    "7"
+                    "0"
                 ],
                 "postalFormats": []
             },
@@ -14568,12 +14568,12 @@
                 ]
             },
             "postal": {
-                "Description": "No Data",
+                "Description": "NoPostalSystem",
                 "RedundantCharacters": null,
                 "ValidationRegex": null,
                 "charSet": "varchar",
                 "postalLengths": [
-                    "7"
+                    "0"
                 ],
                 "postalFormats": []
             },
@@ -14760,12 +14760,12 @@
                 ]
             },
             "postal": {
-                "Description": "No Data",
-                "RedundantCharacters": null,
-                "ValidationRegex": null,
+                "Description": "5-digit, NNNNN",
+                "RedundantCharacters": "",
+                "ValidationRegex": "^[0-9]{5}$",
                 "charSet": "varchar",
                 "postalLengths": [
-                    "7"
+                    "5"
                 ],
                 "postalFormats": []
             },
@@ -15160,7 +15160,7 @@
             "postal": {
                 "Description": "VE : NNNN, NNNN-A",
                 "RedundantCharacters": " -",
-                "ValidationRegex": "^[0-9]{4}[a-zA-Z]?$",
+                "ValidationRegex": "^[0-9]{4}[\-a-zA-Z]?$",
                 "charSet": "number",
                 "postalLengths": [
                     "4",
@@ -15289,7 +15289,7 @@
             "postal": {
                 "Description": "US : NNNNN[-NNNN]",
                 "RedundantCharacters": " -",
-                "ValidationRegex": "^[0-9]{5}([0-9]{4})?$",
+                "ValidationRegex": "^[0-9]{5}([ \-]{1}[0-9]{4})?$",
                 "charSet": "number",
                 "postalLengths": [
                     "5",
@@ -15443,12 +15443,12 @@
                 ]
             },
             "postal": {
-                "Description": "No Data",
+                "Description": "NoPostalSystem",
                 "RedundantCharacters": null,
                 "ValidationRegex": null,
                 "charSet": "varchar",
                 "postalLengths": [
-                    "7"
+                    "0"
                 ],
                 "postalFormats": []
             },
@@ -15599,12 +15599,12 @@
                 ]
             },
             "postal": {
-                "Description": "No Data",
-                "RedundantCharacters": null,
+                "Description": "5-digit, NNNNN",
+                "RedundantCharacters": "",
                 "ValidationRegex": null,
                 "charSet": "varchar",
                 "postalLengths": [
-                    "7"
+                    "5"
                 ],
                 "postalFormats": []
             },
@@ -15811,12 +15811,12 @@
                 ]
             },
             "postal": {
-                "Description": "No Data",
-                "RedundantCharacters": null,
-                "ValidationRegex": null,
+                "Description": "5-digit, NNNNN",
+                "RedundantCharacters": "",
+                "ValidationRegex": "^[0-9]{5}$",
                 "charSet": "varchar",
                 "postalLengths": [
-                    "7"
+                    "5"
                 ],
                 "postalFormats": []
             },
@@ -15900,12 +15900,12 @@
                 "phone_number_lengths": null
             },
             "postal": {
-                "Description": "No Data",
+                "Description": "NoPostalSystem",
                 "RedundantCharacters": null,
                 "ValidationRegex": null,
                 "charSet": "varchar",
                 "postalLengths": [
-                    "7"
+                    "0"
                 ],
                 "postalFormats": []
             },
@@ -16087,12 +16087,12 @@
                 "phone_number_lengths": null
             },
             "postal": {
-                "Description": "No Data",
-                "RedundantCharacters": null,
-                "ValidationRegex": null,
+                "Description": "5-digit, NNNNN,
+                "RedundantCharacters": "",
+                "ValidationRegex": "^[0-9]{5}$",
                 "charSet": "varchar",
                 "postalLengths": [
-                    "7"
+                    "5"
                 ],
                 "postalFormats": []
             },
@@ -16624,12 +16624,12 @@
                 "phone_number_lengths": null
             },
             "postal": {
-                "Description": "No Data",
+                "Description": "NoPostalSystem",
                 "RedundantCharacters": null,
                 "ValidationRegex": null,
                 "charSet": "varchar",
                 "postalLengths": [
-                    "7"
+                    "0"
                 ],
                 "postalFormats": []
             },
@@ -16723,12 +16723,12 @@
                 "phone_number_lengths": null
             },
             "postal": {
-                "Description": "No Data",
+                "Description": "NoPostalSystem",
                 "RedundantCharacters": null,
                 "ValidationRegex": null,
                 "charSet": "varchar",
                 "postalLengths": [
-                    "7"
+                    "0"
                 ],
                 "postalFormats": []
             },
@@ -16771,12 +16771,12 @@
                 "phone_number_lengths": null
             },
             "postal": {
-                "Description": "No Data",
+                "Description": "NoPostalSystem",
                 "RedundantCharacters": null,
                 "ValidationRegex": null,
                 "charSet": "varchar",
                 "postalLengths": [
-                    "7"
+                    "0"
                 ],
                 "postalFormats": []
             },

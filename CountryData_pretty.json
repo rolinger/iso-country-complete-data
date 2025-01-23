@@ -366,7 +366,7 @@
             "postal": {
                 "Description": "US : NNNNN[-NNNN]",
                 "RedundantCharacters": " -",
-                "ValidationRegex": "^[0-9]{5}([ \-]{1}[0-9]{4})?$",
+                "ValidationRegex": "^[0-9]{5}([ -]{1}[0-9]{4})?$",
                 "charSet": "number",
                 "postalLengths": [
                     "5",
@@ -2156,7 +2156,7 @@
             "postal": {
                 "Description": "2-char 2-digit, AA NN",
                 "RedundantCharacters": " -",
-                "ValidationRegex": "^[a-zA-Z]{2}[ \-]([a-zA-Z]{2} | [0-9]{2})$",
+                "ValidationRegex": "^[a-zA-Z]{2}[ -]([a-zA-Z]{2} | [0-9]{2})$",
                 "charSet": "varchar",
                 "postalLengths": [
                     "5"
@@ -3040,7 +3040,7 @@
                 ]
             },
             "postal": {
-                "Description": NoPostalSystem",
+                "Description": "NoPostalSystem",
                 "RedundantCharacters": null,
                 "ValidationRegex": null,
                 "charSet": "varchar",
@@ -4992,7 +4992,7 @@
             "postal": {
                 "Description": "US : NNNNN[-NNNN]",
                 "RedundantCharacters": " -",
-                "ValidationRegex": "^[0-9]{5}([ \-]{1}[0-9]{4})?$",
+                "ValidationRegex": "^[0-9]{5}([ -]{1}[0-9]{4})?$",
                 "charSet": "number",
                 "postalLengths": [
                     "5",
@@ -5983,7 +5983,7 @@
             "postal": {
                 "Description": "US : NNNNN[-NNNN]",
                 "RedundantCharacters": " -",
-                "ValidationRegex": "^[0-9]{5}([ \-]{1}[0-9]{4})?$",
+                "ValidationRegex": "^[0-9]{5}([ -]{1}[0-9]{4})?$",
                 "charSet": "number",
                 "postalLengths": [
                     "5",
@@ -7923,7 +7923,7 @@
             "postal": {
                 "Description": "LB : NNNNN, NNNN NNNN",
                 "RedundantCharacters": " -",
-                "ValidationRegex": "^[0-9]{4}(?:[ \-]{1}[0-9]{4})?$",
+                "ValidationRegex": "^[0-9]{4}(?:[ -]{1}[0-9]{4})?$",
                 "charSet": "number",
                 "postalLengths": [
                     "5",
@@ -9114,7 +9114,7 @@
             "postal": {
                 "Description": "US : NNNNN[-NNNN]",
                 "RedundantCharacters": " -",
-                "ValidationRegex": "^[0-9]{5}([ \-]{1}[0-9]{4})?$",
+                "ValidationRegex": "^[0-9]{5}([ -]{1}[0-9]{4})?$",
                 "charSet": "number",
                 "postalLengths": [
                     "5",
@@ -9682,7 +9682,7 @@
             "postal": {
                 "Description": "US : NNNNN[-NNNN]",
                 "RedundantCharacters": " -",
-                "ValidationRegex": "^[0-9]{5}([ \-]{1}[0-9]{4})?$",
+                "ValidationRegex": "^[0-9]{5}([ -]{1}[0-9]{4})?$",
                 "charSet": "number",
                 "postalLengths": [
                     "5",
@@ -11358,7 +11358,7 @@
             "postal": {
                 "Description": "US : NNNNN[-NNNN]",
                 "RedundantCharacters": " -",
-                "ValidationRegex": "^[0-9]{5}([ \-]{1}[0-9]{4})?$",
+                "ValidationRegex": "^[0-9]{5}([ -]{1}[0-9]{4})?$",
                 "charSet": "number",
                 "postalLengths": [
                     "5",
@@ -11563,7 +11563,7 @@
             "postal": {
                 "Description": "US : NNNNN[-NNNN]",
                 "RedundantCharacters": " -",
-                "ValidationRegex": "^[0-9]{5}([ \-]{1}[0-9]{4})?$",
+                "ValidationRegex": "^[0-9]{5}([ -]{1}[0-9]{4})?$",
                 "charSet": "number",
                 "postalLengths": [
                     "5",
@@ -12140,7 +12140,7 @@
             "postal": {
                 "Description": "RU : NNN[-NNN]",
                 "RedundantCharacters": " -",
-                "ValidationRegex": "^[0-9]{3}([ \-]{1}[0-9]{3})?$",
+                "ValidationRegex": "^[0-9]{3}([ -]{1}[0-9]{3})?$",
                 "charSet": "number",
                 "postalLengths": [
                     "3",
@@ -12322,7 +12322,7 @@
             "postal": {
                 "Description": "US : NNNNN[-NNNN]",
                 "RedundantCharacters": " -",
-                "ValidationRegex": "^[0-9]{5}([ \-]{1}[0-9]{4})?$",
+                "ValidationRegex": "^[0-9]{5}([ -]{1}[0-9]{4})?$",
                 "charSet": "number",
                 "postalLengths": [
                     "5",
@@ -15160,7 +15160,7 @@
             "postal": {
                 "Description": "VE : NNNN, NNNN-A",
                 "RedundantCharacters": " -",
-                "ValidationRegex": "^[0-9]{4}[\-a-zA-Z]?$",
+                "ValidationRegex": "^[0-9]{4}[-a-zA-Z]?$",
                 "charSet": "number",
                 "postalLengths": [
                     "4",
@@ -15289,7 +15289,7 @@
             "postal": {
                 "Description": "US : NNNNN[-NNNN]",
                 "RedundantCharacters": " -",
-                "ValidationRegex": "^[0-9]{5}([ \-]{1}[0-9]{4})?$",
+                "ValidationRegex": "^[0-9]{5}([ -]{1}[0-9]{4})?$",
                 "charSet": "number",
                 "postalLengths": [
                     "5",
@@ -16087,7 +16087,7 @@
                 "phone_number_lengths": null
             },
             "postal": {
-                "Description": "5-digit, NNNNN,
+                "Description": "5-digit, NNNNN",
                 "RedundantCharacters": "",
                 "ValidationRegex": "^[0-9]{5}$",
                 "charSet": "varchar",

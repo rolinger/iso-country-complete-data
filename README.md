@@ -57,7 +57,7 @@ Please help keep this data accurate or make contributions to it to expand the da
 
 NOTE 1: Currencies: Some countries have multiple codes but only one name and symbol (ie: Colombia).  Others have multiple codes/multiple names but only one symbol and yet others have multiple codes, names and symbols (ie: Namibia)
 
-NOTE 2: Postal Codes: Not all countries have postal info avaialble.  To create consistent data, I analyzed those countries and came up with a default solution `Description="NoPostalSystem", charSet="varchar", postalLength=["0"], ValidationRegex="[a-zA-Z0-9]"` for uniformity.  You may find my chosen defaults do not suit you. Test for `obj.country[code].postal.Description == 'No Data'` to create your own defaults...if any.
+NOTE 2: Postal Codes: Not all countries have postal info avaialble.  To create consistent data, I analyzed those countries and came up with a default solution `Description="NoPostalSystem", charSet="varchar", postalLength=["0"], ValidationRegex="[a-zA-Z0-9]"` for uniformity.  You may find my chosen defaults do not suit you. Test for `obj.country[code].postal.Description == 'NoPostalSystem'` to create your own defaults...if any.
 
 NOTE 3: Postal Code Lengths:  Length variations account for spaces and dashes.  US ["5", "10"].  "10" = "12345-1234" or "12345 1234"
 
